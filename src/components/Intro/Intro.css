@@ -19,14 +19,14 @@
 
 .i-name>:nth-child(1)
 {
-  color: #242D49;
+  color: var(--black);
   font-weight: bold;
   font-size: 3rem;
 }
 
 .i-name>:nth-child(2)
 {
-  color: #FCA61F;
+  color: var(--orange);
   font-weight: bold;
   font-size: 3rem;
 }
@@ -35,7 +35,7 @@
 {
   font-weight: 100;
   font-size: 14px;
-  color: #788097;
+  color: var(--gray);
   margin-top: 10px;
 }
 

@@ -15,21 +15,21 @@
 
 .awesome >:nth-child(1)
 {
-  color: #242D49;
+  color:var(--black);
   font-size: 2.5rem;
   font-weight: bold;
 }
 
 .awesome >:nth-child(2)
 {
-  color: #FCA61F;
+  color: var(--orange);
   font-size: 2.5rem;
   font-weight: bold;
 }
 
 .awesome >:nth-child(3)
 {
-  color: #788097;
+  color: var(--gray);
   font-size: 14px;
   margin-top: 1rem;
 }
@@ -38,4 +38,24 @@
   width: 8rem;
   height: 2rem;
   margin-top: 1rem;
+}
+
+.cards{
+  position: relative;
+}
+
+.cards>*{
+  position: absolute;
+}
+
+/* blur */
+
+.s-blur2{
+left: 14rem;
+top: 8rem;
+}
+
+.s-blur1{
+  top: 13rem;
+  left: -18rem;
 }

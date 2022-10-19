@@ -28,15 +28,15 @@
   flex: 10;
 }
 
-.n-list >ul{
+.n-list > ul {
   display: flex;
   gap:2rem;
   margin-right: 4rem;
 }
 
-.n-list > ul>li:hover{
+.n-list > ul > li:hover{
   cursor: pointer;
-  color: #FCA61F;
+  color: var(--orange);
 }
 
 .n-button{
