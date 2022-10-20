@@ -1,7 +1,7 @@
 import "./Toggle.css";
 import Sun from "@iconscout/react-unicons/icons/uil-sun";
 import Moon from "@iconscout/react-unicons/icons/uil-moon";
-import { themeContext, ThemeProvider } from "../../Context";
+import { themeContext } from "../../Context";
 import { useContext } from "react";
 const Toggle = () => {
 
